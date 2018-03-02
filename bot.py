@@ -11,7 +11,7 @@ from config import *
 from settings import *
 import json
 import urllib.request
-from boto.s3.connection import S3Connection
+TOKEN = os.environ['TOKEN']
 
 ################## START INIT #####################
 client = discord.Client()
